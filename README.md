@@ -86,7 +86,8 @@ npm install or npm i
 
 
 ## Run
-Python
+
+#####Python
 ```python
 #checks any migrations
 python manage.py makemigrations
@@ -137,17 +138,17 @@ Quit the server with CTRL-BREAK.
 
 ```
 
-### React
-#to install all packages before start
+#####React
+######to install all packages before start
 ```react
 npm i
 ```
-or 
+######or 
 ```react
 npm install
 ```
 
-#to start the server
+######to start the server
 ```react
 npm start
 ```
