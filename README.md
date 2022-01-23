@@ -6,9 +6,8 @@ This is a personal project based on django framework and react frontend
 
 Use the package manager [pip](https://pypi.org/project/pip/) all the packages for this project use.
 
+You can use [pipenv](https://pypi.org/project/pipenv/) or [Virtualenv](https://pypi.org/project/virtualenv/) or [Conda](https://www.anaconda.com/products/individual)
 ```bash
-You can use pipenv or Virtualenv or [Conda](https://www.anaconda.com/products/individual)
-
 #to install pipenv package
 pip install pipenv
 ```
@@ -17,11 +16,13 @@ pip install pipenv
 pip install venv
 
 Create the virtual environment
-To create a virtual environment, you must specify a path. For example to create one in the local directory called ‘mypython’, type the following:
+To create a virtual environment, you must specify a path.
+For example to create one in the local directory called ‘mypython’, type the following:
 
 virtualenv mypython
-ot venv mypython
-
+or venv mypython
+```
+```bash
 Activate the virtual environment
 You can activate the python environment by running the following command:
 
@@ -31,11 +32,12 @@ source mypython/bin/activate
 Windows
 mypthon\Scripts\activate
 
+```
+```bash
+#Deactivate the virtual environment
 
-
-
-Deactivate the virtual environment
-To decativate the virtual environment and use your original Python environment, simply type ‘deactivate’.
+To decativate the virtual environment and use your original Python environment,
+simply type ‘deactivate’.
 
 deactivate
 ```
@@ -84,6 +86,7 @@ npm install or npm i
 
 
 ## Run
+Python
 ```python
 #checks any migrations
 python manage.py makemigrations
@@ -134,9 +137,18 @@ Quit the server with CTRL-BREAK.
 
 ```
 
-## React
+### React
+#to install all packages before start
 ```react
+npm i
+```
+or 
+```react
+npm install
+```
+
 #to start the server
+```react
 npm start
 ```
 
@@ -146,4 +158,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[Apache](https://choosealicense.com/licenses/apache2.0/)
+[Apache](http://www.apache.org/licenses/LICENSE-2.0)
