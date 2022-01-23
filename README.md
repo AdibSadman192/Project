@@ -6,8 +6,9 @@ This is a personal project based on django framework and react frontend
 
 Use the package manager [pip](https://pypi.org/project/pip/) all the packages for this project use.
 
-```bash
 You can use pipenv or Virtualenv or [Conda](https://www.anaconda.com/products/individual)
+```bash
+
 
 #to install pipenv package
 pip install pipenv
