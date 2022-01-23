@@ -136,8 +136,17 @@ Quit the server with CTRL-BREAK.
 ```
 
 ## React
+#to install all packages before start
 ```react
+npm i
+```
+or 
+```react
+npm install
+```
+
 #to start the server
+```react
 npm start
 ```
 
