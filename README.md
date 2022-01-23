@@ -146,4 +146,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[Apache](https://choosealicense.com/licenses/apache2.0/)
+[Apache](http://www.apache.org/licenses/LICENSE-2.0)
